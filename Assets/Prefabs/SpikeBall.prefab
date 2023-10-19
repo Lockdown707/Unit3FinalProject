@@ -208,6 +208,7 @@ GameObject:
   - component: {fileID: 5261689558550157593}
   - component: {fileID: 2872564571486630234}
   - component: {fileID: 7577742662498771043}
+  - component: {fileID: 5138466377441355375}
   m_Layer: 0
   m_Name: SpikeBall
   m_TagString: obstaclePrefab
@@ -262,3 +263,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 2
   m_CollisionDetection: 0
+--- !u!114 &5138466377441355375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4777921636788847523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3054f659ff74e0643954f8163c9b9d9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
